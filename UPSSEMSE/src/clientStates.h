@@ -1,0 +1,23 @@
+#ifndef CLIENTSTATES_H_
+#define CLIENTSTATES_H_
+
+//Pocet vsech stavu
+#define NUM_STATES 11
+
+//Vycet stavu klienta
+enum state
+{
+	INACTIVE,
+	CONNECTING,
+	CONNECTED,
+	LOBBY,
+	GAME_NOT_READY,
+	GAME_READY,
+	GAME_PLACED_BET,
+	GAME_WAITING,
+	GAME_TURN,
+	GAME_WAITING_NEW_ROUND,
+	GAME_WAITING_END
+};
+
+#endif
