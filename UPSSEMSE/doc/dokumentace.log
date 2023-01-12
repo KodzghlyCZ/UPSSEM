@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.20)  12 JAN 2023 08:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.20)  12 JAN 2023 08:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -582,8 +582,14 @@ File: stateDiagramCodes.png Graphic file (type png)
 Package pdftex.def Info: stateDiagramCodes.png  used on input line 178.
 (pdftex.def)             Requested size: 400.38872pt x 271.60881pt.
  [9 <./stateDiagramCodes.png>] [10] [11] [12] [13] (./dokumentace.aux)
-Package rerunfilecheck Info: File `dokumentace.out' has not changed.
-(rerunfilecheck)             Checksum: 10A0FDDD94EB5E196295A4738319F30C;3811.
+
+Package rerunfilecheck Warning: File `dokumentace.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `dokumentace.out':
+(rerunfilecheck)             Before: 10A0FDDD94EB5E196295A4738319F30C;3811
+(rerunfilecheck)             After:  6E8DD61705C829F0998E2A0A4BEA7DA2;3723.
  ) 
 Here is how much of TeX's memory you used:
  9830 strings out of 478238
@@ -593,10 +599,14 @@ Here is how much of TeX's memory you used:
  474119 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,11n,63p,619b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on dokumentace.pdf (14 pages, 155073 bytes).
+
+pdfTeX warning (dest): name{subsection.5.3} has been referenced but does not ex
+ist, replaced by a fixed one
+
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on dokumentace.pdf (14 pages, 155052 bytes).
 PDF statistics:
  269 PDF objects out of 1000 (max. 8388607)
  236 compressed objects within 3 object streams
